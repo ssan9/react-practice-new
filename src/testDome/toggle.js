@@ -29,14 +29,18 @@ class Message extends React.Component {
   
   render() {
     if (this.state.display) {
-      return (<React.Fragment>
+      return (
+        <React.Fragment>
           <a href="#" onClick={this.toggleDisplay}>Want to buy a new car?</a>
           <p>Call +11 22 33 44 now!</p>
-        </React.Fragment>);
+        </React.Fragment>
+      );
     } else {
-      return (<React.Fragment>
+      return (
+        <React.Fragment>
           <a href="#" onClick={this.toggleDisplay}>Want to buy a new car?</a>
-        </React.Fragment>);
+        </React.Fragment>
+      );
     }
   }
 }
